@@ -1,46 +1,81 @@
 import React from 'react';
 import classes from './Skills.module.css';
 import Skill from './skill/Skill';
+const frontend = [
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'Angular',
+  'React Native',
+  'Next.js',
+  'Redux',
+  'Redux Toolkit',
+  'jQuery',
+  'HTML',
+  'CSS',
+];
+
+const backend = [
+  'Node.js',
+  'Express',
+  'Koa',
+  'GraphQL',
+  'MongoDB',
+  'Mongoose',
+  'SQL',
+  'PostgreSQL',
+  'Sequelize',
+  'Socket.IO',
+  'REST API',
+];
+
+const testing = ['Jest', 'Mocha', 'React-testing-library', 'Vitest'];
+
+const devOps = ['Docker', 'CI/CD'];
+
 const Skills = () => {
   return (
     <div className={classes.skills}>
-      <h2>Frontend:</h2>
-      <div className={classes.frontend}>
-        <Skill name='JavaScript' />
-        <Skill name='TypeScript' />
-        <Skill name='React' />
-        <Skill name='Angular' />
-        <Skill name='React Native' />
-        <Skill name='Next.js' />
-        <Skill name='Redux' />
-        <Skill name='Redux Toolkit' />
-        <Skill name='jQuery' />
-        <Skill name='HTML' />
-        <Skill name='CSS' />
+      <div className={classes.techStack}>Tech Stack</div>
+      <div className={classes.stack}>
+        <div className={classes.title}>
+          <h3>Frontend</h3>
+        </div>
+        <div className={classes.frontend}>
+          {frontend.map((skill) => (
+            <Skill name={skill} />
+          ))}
+        </div>
       </div>
-      <h2>Backend:</h2>
-      <div className={classes.backend}>
-        <Skill name='Node.js' />
-        <Skill name='Express' />
-        <Skill name='Koa' />
-        <Skill name='GraphQL' />
-        <Skill name='MongoDB' />
-        <Skill name='Mongoose' />
-        <Skill name='SQL' />
-        <Skill name='PostgreSQL' />
-        <Skill name='Sequelize' />
-        <Skill name='Socket.IO' />
+      <div className={classes.stack}>
+        <div className={classes.title}>
+          <h3>Backend</h3>
+        </div>
+        <div className={classes.backend}>
+          {backend.map((skill) => (
+            <Skill name={skill} />
+          ))}
+        </div>
       </div>
-      <h2>Testing:</h2>
-      <div className={classes.testing}>
-        <Skill name='Jest' />
-        <Skill name='Mocha' />
-        <Skill name='React-testing-library' />
+      <div className={classes.stack}>
+        <div className={classes.title}>
+          <h3>Testing</h3>
+        </div>
+        <div className={classes.testing}>
+          {testing.map((skill) => (
+            <Skill name={skill} />
+          ))}
+        </div>
       </div>
-      <h2>DevOps/Tooling:</h2>
-      <div className={classes.testing}>
-        <Skill name='Docker' />
-        <Skill name='CD/CI' />
+      <div className={classes.stack}>
+        <div className={classes.title}>
+          <h3>DevOps/Tooling</h3>
+        </div>
+        <div className={classes.testing}>
+          {devOps.map((skill) => (
+            <Skill name={skill} />
+          ))}
+        </div>
       </div>
     </div>
   );

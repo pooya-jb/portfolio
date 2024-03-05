@@ -1,7 +1,12 @@
 .main {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  width: 100vw;
+}
+
+.left {
+  width: 35%;
+  background-image: linear-gradient(to right, white, rgba(96, 187, 183, 0.606));
+  height: 100vh;
 }
 
 .home {

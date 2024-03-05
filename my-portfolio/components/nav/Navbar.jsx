@@ -5,7 +5,6 @@ import classes from './Navbar.module.css';
 const Navbar = () => {
   return (
     <div className={classes.nav}>
-      <div>Pooya Jafariberenni</div>
       <nav>
         <ul className={classes.navlist}>
           <Link href='./home'>HOME</Link>
