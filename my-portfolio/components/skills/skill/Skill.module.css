@@ -1,0 +1,22 @@
+.skill {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  /* border-image: linear-gradient(to right, #ff0000, #00ff00) 1;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent; */
+  border: 1px solid rgb(4, 150, 114);
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(203, 203, 203, 0.69)
+  );
+  transition: all 300ms;
+  font-size: 0.8rem;
+}
+
+.skill:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 5px gray;
+  scale: 1.02;
+}

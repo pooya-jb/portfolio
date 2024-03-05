@@ -1,0 +1,7 @@
+.frontend,
+.backend,
+.testing,
+.devops {
+  display: flex;
+  gap: 0.5rem;
+}
