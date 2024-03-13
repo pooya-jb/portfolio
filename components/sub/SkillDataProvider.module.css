@@ -1,0 +1,17 @@
+.skill {
+  height: 110px;
+  display: flex;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 300ms;
+}
+
+.skill div {
+  transition: color 300ms;
+}
+
+.skill:hover div {
+  color: white;
+}

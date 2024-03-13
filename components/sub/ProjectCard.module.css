@@ -1,0 +1,85 @@
+.projectCard {
+  width: 33%;
+}
+
+.techStack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tech {
+  transition: color 300ms;
+}
+
+.tasks {
+  list-style: disc;
+  padding: 1rem;
+}
+.projectCard:hover .tech {
+  color: #b599fe;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  transition: all 0.5s;
+}
+
+.projectCard:hover .image {
+  scale: 1.01;
+}
+
+.dark {
+  opacity: 0.1;
+}
+.info {
+  height: 0.7rem;
+  width: auto;
+  opacity: 0.6;
+  color: white;
+  align-self: flex-end;
+}
+
+.info:hover {
+  cursor: context-menu;
+  opacity: 0.8;
+}
+
+.infoContainer:hover:hover .image {
+  opacity: 0.2;
+}
+
+.companyDetails {
+  position: relative;
+}
+
+.description {
+  opacity: 0;
+  width: 90%;
+  position: absolute;
+  left: 2rem;
+  bottom: -1%;
+  transition: bottom 0.5s ease;
+}
+
+.show {
+  bottom: 2rem;
+  opacity: 100;
+}
+
+.newTab {
+  display: none;
+  width: 1.2rem;
+  height: auto;
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  transition: all 300ms;
+}
+
+.imageContainer:hover .newTab {
+  display: block;
+  scale: 1.1;
+}
