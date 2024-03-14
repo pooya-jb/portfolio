@@ -57,15 +57,28 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className='text-lg text-gray-400 my-5 max-w-[600px]'
         >
-          a Full-Stack Engineer with experience in Website, Mobile, and Software
-          development. Check out my projects and skills.
+          I love transforming ideas into reality through the power of coding.
+          With a passion for problem-solving, I'm always excited to tackle new
+          challenges head-on.
+          <div className='text-sm mt-2 text-gray-500'>
+            Check out my
+            <a href='#skills' className='text-gray-400 hover:text-gray-300'>
+              {' '}
+              Skills
+            </a>{' '}
+            and
+            <a href='#projects' className='text-gray-400 hover:text-gray-300'>
+              {' '}
+              Projects
+            </a>{' '}
+          </div>
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
           href='mailto:jb.pooya@gmail.com'
         >
-          Contact me!
+          CONTACT ME
         </motion.a>
       </div>
 

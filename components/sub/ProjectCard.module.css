@@ -1,5 +1,11 @@
 .projectCard {
-  width: 33%;
+  width: 45%;
+}
+
+.projectCard:hover {
+  background-color: #202020b7;
+  color: black;
+  box-shadow: 0rem 0rem 0.5rem gray;
 }
 
 .techStack {
@@ -16,15 +22,17 @@
   padding: 1rem;
 }
 .projectCard:hover .tech {
-  color: #b599fe;
+  color: #c5b7d1;
 }
 
 .imageContainer {
   position: relative;
+  height: 22rem;
 }
 
 .image {
   transition: all 0.5s;
+  height: 100%;
 }
 
 .projectCard:hover .image {
