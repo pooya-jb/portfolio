@@ -30,7 +30,7 @@ const ProjectCard = ({
 
   return (
     <div
-      className={`relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-[21] hover:border-[#B599FE] duration-300 ${classes.projectCard}`}
+      className={`relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-[21] hover: duration-300 ${classes.projectCard}`}
     >
       <div className={classes.imageContainer}>
         <a href={link} target='_blank' rel='noopener noreferrer'>
