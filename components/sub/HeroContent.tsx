@@ -57,8 +57,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className='text-lg text-gray-400 my-5 max-w-[600px]'
         >
-          I love transforming ideas into reality through the power of coding.
-          With a passion for problem-solving, I'm always excited to tackle new
+          I love bringing ideas to life through the power of coding. With a
+          passion for problem-solving, I'm always excited to tackle new
           challenges head-on.
           <div className='text-sm mt-2 text-gray-500'>
             Check out my
@@ -76,7 +76,7 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
-          href='mailto:jb.pooya@gmail.com'
+          href='#contact'
         >
           CONTACT ME
         </motion.a>
