@@ -54,7 +54,7 @@ const Navbar = () => {
         </a>
         <div className={` h-full flex flex-row justify-center items-center `}>
           <div
-            className={`flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e]  px-[20px] py-[10px] rounded-full text-gray-200 gap-5 ${classes.navLinks} `}
+            className={`min-w-[500px] flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e]  px-[20px] py-[10px] rounded-full text-gray-200 gap-5 ${classes.navLinks} `}
           >
             <a
               href='#about-me'

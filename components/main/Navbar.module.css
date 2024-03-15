@@ -14,6 +14,10 @@
     flex-direction: row;
     gap: 1rem;
   }
+
+  .navLinks {
+    min-width: 60%;
+  }
   .navLinks a {
     font-size: 0.8rem;
   }
