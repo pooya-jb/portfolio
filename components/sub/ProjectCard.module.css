@@ -91,3 +91,23 @@
   display: block;
   scale: 1.1;
 }
+
+@media (max-width: 1080px) {
+  .projectCard {
+    width: 70%;
+  }
+
+  .imageContainer {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .projectCard {
+    width: 95%;
+  }
+
+  .imageContainer {
+    height: 17rem;
+  }
+}

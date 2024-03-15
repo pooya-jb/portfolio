@@ -41,7 +41,13 @@ const SkillDataProvider = ({
       transition={{ delay: index * animationDelay }}
       className={`flex flex-col justify-center h-90 hover:text-white duration-300 ${classes.skill}`}
     >
-      <Image src={src} width={width} height={height} alt='skill image' />
+      <Image
+        src={src}
+        width={width}
+        height={height}
+        alt='skill image'
+        className={classes.skillImg}
+      />
       <div className='text-gray-500 opacity-90 text-center'>{skill_name}</div>
     </motion.div>
   );
