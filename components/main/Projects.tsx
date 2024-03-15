@@ -10,7 +10,7 @@ const Projects = () => {
       <h2 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pt-20 pb-10'>
         My Projects
       </h2>
-      <div className='h-full w-full flex flex-row flex-wrap justify-center md:flex-row gap-10 px-10'>
+      <div className='h-full w-full flex flex-row flex-wrap justify-center md:flex-row gap-10 px-5'>
         <ProjectCard
           src='/SoSummit.png'
           link='https://sosummit.netlify.app/'
