@@ -43,3 +43,23 @@
   background: #a559f6;
   color: white;
 }
+
+@media (max-width: 720px) {
+  .eager {
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .contactForm {
+    width: 90%;
+  }
+
+  .contactForm form {
+    width: 90%;
+  }
+
+  .emailBtn {
+    width: 75%;
+  }
+}

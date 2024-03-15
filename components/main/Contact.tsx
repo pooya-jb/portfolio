@@ -21,10 +21,12 @@ const Contact = () => {
       <h2 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
         Contact
       </h2>
-      <p className='cursive text-gray-400 text-3xl my-5'>
+      <p className={`cursive text-gray-400 text-3xl my-5 ${classes.eager}`}>
         I'm ready to leverage my skills and experience in a dynamic environment.
       </p>
-      <div className='flex flex-col align-center justify-center items-center w-3/5 gap-5'>
+      <div
+        className={`flex flex-col align-center justify-center items-center w-3/5 gap-5 ${classes.contactForm}`}
+      >
         <p className='text white text-md text-gray-200'>
           Contact me to discuss how I can contribute to your projects and drive
           success.
