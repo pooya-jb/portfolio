@@ -83,10 +83,12 @@ export const Socials = [
   {
     name: 'Linkedin',
     src: '/linkedin.svg',
+    link: 'https://www.linkedin.com/in/pooya-jafariberenji/',
   },
   {
     name: 'Github',
     src: '/gitwhite.png',
+    link: 'https://github.com/pooya-jb',
   },
 ];
 
