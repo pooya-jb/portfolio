@@ -4,6 +4,7 @@ import { Socials } from '@/constants';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
+import classes from './Navbar.module.css';
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState('about-me');
@@ -29,8 +30,10 @@ const Navbar = () => {
   }, [activeLink]);
 
   return (
-    <div className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10'>
-      <div className='w-full h-full flex flex-row items-center justify-between m-auto px-[10px]'>
+    <div
+      className={`w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 ${classes.navbar}`}
+    >
+      <div className='w-full h-full flex flex-row items-center justify-between mx-auto px-[10px]'>
         <a
           href='#about-me'
           className='h-auto w-auto flex flex-row items-center'
@@ -49,9 +52,11 @@ const Navbar = () => {
             Pooya Jafariberenji
           </span>
         </a>
-        <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
-          <div className='flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200'>
-            <Link
+        <div className={` h-full flex flex-row justify-center items-center `}>
+          <div
+            className={`flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e]  px-[20px] py-[10px] rounded-full text-gray-200 gap-5 ${classes.navLinks} `}
+          >
+            <a
               href='#about-me'
               className={`cursor-pointer ${
                 activeLink === 'about-me'
@@ -60,7 +65,7 @@ const Navbar = () => {
               } hover:scale-105`}
             >
               About me
-            </Link>
+            </a>
             <a
               href='#skills'
               className={`cursor-pointer ${
@@ -101,8 +106,9 @@ const Navbar = () => {
                 src={social.src}
                 alt={social.name}
                 key={social.name}
-                width={24}
-                height={24}
+                width={20}
+                height={20}
+                className={classes.linkImage}
               />
             </a>
           ))}

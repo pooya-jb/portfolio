@@ -1,0 +1,23 @@
+.linkImage {
+  width: 1.4rem;
+  height: auto;
+}
+
+.navLinks {
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  .navbar {
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .navLinks a {
+    font-size: 0.8rem;
+  }
+  .linkImage {
+    width: 1.5rem;
+  }
+}
