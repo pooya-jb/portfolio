@@ -16,7 +16,7 @@ const Projects = () => {
           link='https://sosummit.netlify.app/'
           company='SoSummit'
           title='Full Stack Developer'
-          description='SoSummit is a Web and Mobile Application to facilitate coordination and improve efficiency of emergency and rescue services. Marketed to Ski Resorts.'
+          description='SoSummit is a Web and Mobile Application to facilitate coordination and improve the efficiency of emergency and rescue services. Marketed to Ski Resorts.'
           tasks={[
             'Contributed to developing a web app utilizing React and styled it with Chakra UI alongside vanilla CSS for a responsive design.',
             'Led the development of a mobile app for both Android and iOS platforms using React Native.',
@@ -43,7 +43,7 @@ const Projects = () => {
         />
         <ProjectCard
           src='/WeekendTraveller.jpeg'
-          link='https://sosummit.netlify.app/'
+          link='https://github.com/pooya-jb/weekend-traveller'
           company='Weekend Travller'
           title='Software Engineer'
           description='Your go-to platform for seamless, budget-friendly flights, unlocking infinite adventures with unbeatable prices.'
