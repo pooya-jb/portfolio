@@ -29,7 +29,7 @@
 }
 
 .emailBtn {
-  background: #d9c9ea;
+  background: #6622ae;
   padding: 0.3rem 0.5rem;
   width: 40%;
   margin: 0 auto;
@@ -37,11 +37,27 @@
   transition: all 500ms;
   border-radius: 0.5rem;
   font-size: 0.9rem;
+  color: white;
 }
 
 .emailBtn:hover {
   background: #a559f6;
   color: white;
+}
+
+.googleCalendar {
+  background: white;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  opacity: 95%;
+  transition: all 300ms;
+  height: 560px;
+  overflow: auto;
+}
+
+.googleCalendar:hover {
+  opacity: 100%;
 }
 
 @media (max-width: 720px) {
