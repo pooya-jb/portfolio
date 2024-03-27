@@ -112,7 +112,6 @@ const Contact = () => {
             src='https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1RmZNj8UBfCXcUD8YLLqYEOy9TATb9mWNe0RbHHm-GyemiOX1KqAcpXds-PPtBhlpga-b-ND0x?gv=true'
             width='1000'
             height='700'
-            frameborder='0'
             scrolling='auto'
           ></iframe>
         </div>
