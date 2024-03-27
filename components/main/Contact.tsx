@@ -27,11 +27,19 @@ const Contact = () => {
       <div
         className={`flex flex-col align-center justify-center items-center w-3/5 gap-5 ${classes.contactForm}`}
       >
+        <div className='w-1/2 text-center'>
+          <a href='mailto:jb.pooya@gmail.com'>
+            <button type='submit' className={classes.emailBtn}>
+              Write me an Email
+            </button>
+          </a>
+        </div>
+        <p className='text-gray-400'>or</p>
         <p className='text white text-md text-gray-200'>
-          Contact me to discuss how I can contribute to your projects and drive
-          success.
+          Let's schedule a Google Meet and chat about how I can bring value to
+          your project!
         </p>
-        <form
+        {/* <form
           onSubmit={submitHandler}
           className={`flex flex-col w-1/2 gap-2 ${classes.form}`}
         >
@@ -97,14 +105,16 @@ const Contact = () => {
           >
             Send
           </button>
-        </form>
-        <div className='w-1/2 text-center'>
-          <p className='text-gray-400'>or</p>
-          <a href='mailto:jb.pooya@gmail.com'>
-            <button type='submit' className={classes.emailBtn}>
-              Write me an Email
-            </button>
-          </a>
+        </form> */}
+
+        <div className={classes.googleCalendar}>
+          <iframe
+            src='https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1RmZNj8UBfCXcUD8YLLqYEOy9TATb9mWNe0RbHHm-GyemiOX1KqAcpXds-PPtBhlpga-b-ND0x?gv=true'
+            width='1000'
+            height='700'
+            frameborder='0'
+            scrolling='auto'
+          ></iframe>
         </div>
       </div>
     </section>
