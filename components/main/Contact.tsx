@@ -110,9 +110,8 @@ const Contact = () => {
         <div className={classes.googleCalendar}>
           <iframe
             src='https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1RmZNj8UBfCXcUD8YLLqYEOy9TATb9mWNe0RbHHm-GyemiOX1KqAcpXds-PPtBhlpga-b-ND0x?gv=true'
-            width='1000'
-            height='700'
             scrolling='auto'
+            className={classes.appointments}
           ></iframe>
         </div>
       </div>

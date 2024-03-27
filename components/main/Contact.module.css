@@ -48,16 +48,21 @@
 .googleCalendar {
   background: white;
   border: 1px solid white;
-  padding: 1rem;
   border-radius: 0.5rem;
   opacity: 95%;
   transition: all 300ms;
   height: 560px;
+  width: 70vw;
   overflow: auto;
 }
 
 .googleCalendar:hover {
   opacity: 100%;
+}
+
+.appointments {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 720px) {
@@ -78,5 +83,9 @@
 
   .emailBtn {
     width: 75%;
+  }
+
+  .googleCalendar {
+    width: 95vw;
   }
 }
