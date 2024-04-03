@@ -22,7 +22,7 @@ const Contact = () => {
         Contact
       </h2>
       <p className={`cursive text-gray-400 text-3xl my-5 ${classes.eager}`}>
-        I'm ready to leverage my skills and experience in a dynamic environment.
+        I'm ready to take on new responsibilities in a dynamic environment!
       </p>
       <div
         className={`flex flex-col align-center justify-center items-center w-3/5 gap-5 ${classes.contactForm}`}
