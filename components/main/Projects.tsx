@@ -8,7 +8,7 @@ const Projects = () => {
       id='projects'
     >
       <h2 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pt-20 pb-10'>
-        My Projects
+        My Work
       </h2>
       <div className='h-full w-full flex flex-row flex-wrap justify-center md:flex-row gap-10 px-5'>
         <ProjectCard
