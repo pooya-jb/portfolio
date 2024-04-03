@@ -57,9 +57,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className='text-lg text-gray-400 my-5 max-w-[600px]'
         >
-          I love bringing ideas to life through the power of coding. With a
-          passion for problem-solving, I'm always excited to tackle new
-          challenges head-on.
+          I thrive on bringing ideas to life through the power of coding. With a
+          deep passion for problem-solving, I eagerly embrace new challenges.
           <div className='text-sm mt-2 text-gray-500'>
             Check out my
             <a href='#skills' className='text-gray-400 hover:text-gray-300'>
