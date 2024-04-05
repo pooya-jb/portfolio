@@ -41,28 +41,7 @@ const Projects = () => {
             'Leaflet',
           ]}
         />
-        <ProjectCard
-          src='/WeekendTraveller.jpeg'
-          link='https://github.com/pooya-jb/weekend-traveller'
-          company='Weekend Travller'
-          title='Software Engineer'
-          description='Your go-to platform for seamless, budget-friendly flights, unlocking infinite adventures with unbeatable prices.'
-          tasks={[
-            'Collaborated with refactoring the project from JavaScript to TypeScript for reliable and maintainable code.',
-            'Extended test coverage by 14% by writing unit and integration tests, using Jest.',
-            'Added product features by adding new routes in the backend using Skyscanner API.',
-            'Designed and implemented new SQL tables that utilize primary keys for efficient data retrieval. This enabled seamless integration with the existing data structure in the relational database.',
-          ]}
-          techStack={[
-            'JavaScript',
-            'TypeScript',
-            'PostgreSQL',
-            'React',
-            'REST APIs',
-            'Jest',
-            'react-testing-library',
-          ]}
-        />
+
         <ProjectCard
           src='/FitAIM.png'
           link='https://fit-aim.vercel.app'
@@ -84,6 +63,28 @@ const Projects = () => {
             'Node.js',
             'Express',
             'MongoDB',
+          ]}
+        />
+        <ProjectCard
+          src='/WeekendTraveller.jpeg'
+          link='https://github.com/pooya-jb/weekend-traveller'
+          company='Weekend Travller'
+          title='Software Engineer'
+          description='Your go-to platform for seamless, budget-friendly flights, unlocking infinite adventures with unbeatable prices.'
+          tasks={[
+            'Collaborated with refactoring the project from JavaScript to TypeScript for reliable and maintainable code.',
+            'Extended test coverage by 14% by writing unit and integration tests, using Jest.',
+            'Added product features by adding new routes in the backend using Skyscanner API.',
+            'Designed and implemented new SQL tables that utilize primary keys for efficient data retrieval. This enabled seamless integration with the existing data structure in the relational database.',
+          ]}
+          techStack={[
+            'JavaScript',
+            'TypeScript',
+            'PostgreSQL',
+            'React',
+            'REST APIs',
+            'Jest',
+            'react-testing-library',
           ]}
         />
       </div>
