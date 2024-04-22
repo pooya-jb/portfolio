@@ -84,7 +84,7 @@ const Navbar = () => {
                   : 'text-white-200'
               } hover:scale-105`}
             >
-              Projects
+              My Work
             </a>
             <a
               href='#contact'
