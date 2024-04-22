@@ -26,7 +26,7 @@ const Projects = () => {
           ]}
           techStack={[
             'TypeScript',
-            "JavaScript",
+            'JavaScript',
             'React',
             'React Native',
             'Redux',
@@ -50,7 +50,7 @@ const Projects = () => {
           description='FitAIM is a cutting-edge fitness application. Utilizing AI technology, users can access weekly workout & diet plans tailored to their individual goals and preferences, while also tracking their progress seamlessly.'
           tasks={[
             'Employed React to develop a single-page application (SPA), prioritizing optimal user experience.',
-            "Utilized Chart.js for data visualization, enabling users to track their progress intuitively."
+            'Utilized Chart.js for data visualization, enabling users to track their progress intuitively.',
             'Implemented efficient data modeling with MongoDB schemas to handle database queries seamlessly.',
             'Utilized JWT for secure and seamless authorization.',
             'Leveraged Node.js and Express for the backend implementation, ensuring robustness and scalability.',
