@@ -50,7 +50,7 @@ const Projects = () => {
           description='FitAIM is a cutting-edge fitness application. Utilizing AI technology, users can access weekly workout & diet plans tailored to their individual goals and preferences, while also tracking their progress seamlessly.'
           tasks={[
             'Employed React to develop a single-page application (SPA), prioritizing optimal user experience.',
-            'Utilized Chart.js for data visualization, enabling users to track their progress intuitively.',
+            'Utilized Chart.js for data visualization, allowing users to track their progress intuitively.',
             'Implemented efficient data modeling with MongoDB schemas to handle database queries seamlessly.',
             'Utilized JWT for secure and seamless authorization.',
             'Leveraged Node.js and Express for the backend implementation, ensuring robustness and scalability.',
@@ -75,7 +75,7 @@ const Projects = () => {
           tasks={[
             'Collaborated on organizing the codebase and refactoring the project from JavaScript to TypeScript, adhering to the DRY and clean code principles, making the application more testable and maintainable.',
             'Extended test coverage from 66% to 82% by writing unit and integration tests using Jest.',
-            'Designed and implemented a new SQL table to store currency data obtained from Skyscanner API to replace previous hardcoded entries. Scheduled cron jobs using node-cron to regularly update the table, ensuring the application remains reliable and accurate',
+            'Designed and implemented a new SQL table to store currencies and airports data fetched from Skyscanner API. Scheduled cron jobs using node-cron to regularly update the table, ensuring the application remains reliable and accurate',
           ]}
           techStack={[
             'JavaScript',
