@@ -75,7 +75,7 @@ const Projects = () => {
           tasks={[
             'Collaborated on organizing the codebase and refactoring the project from JavaScript to TypeScript, adhering to the DRY and clean code principles, making the application more testable and maintainable.',
             'Extended test coverage from 66% to 82% by writing unit and integration tests using Jest.',
-            'Designed and implemented a new SQL table to store currencies and airports data fetched from Skyscanner API. Scheduled cron jobs using node-cron to regularly update the table, ensuring the application remains reliable and accurate',
+            'Designed and implemented a new SQL table to store currencies and airports data fetched from Skyscanner API, and scheduled cron jobs using node-cron to regularly update the table, ensuring the application remains reliable and accurate',
           ]}
           techStack={[
             'JavaScript',
