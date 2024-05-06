@@ -64,7 +64,7 @@ const Navbar = () => {
                   : 'text-white-200'
               } hover:scale-105`}
             >
-              About me
+              About Me
             </a>
             <a
               href='#skills'
