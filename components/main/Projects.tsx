@@ -44,7 +44,7 @@ const Projects = () => {
 
         <ProjectCard
           src='/FitAIM.png'
-          link='https://fit-aim.vercel.app'
+          link='https://fitaim.app'
           company='FitAIM'
           title='Full Stack Developer'
           description='FitAIM is a cutting-edge fitness application. Utilizing AI technology, users can access weekly workout & diet plans tailored to their individual goals and preferences, while also tracking their progress seamlessly.'
