@@ -13,7 +13,7 @@ const Projects = () => {
       <div className='h-full w-full flex flex-row flex-wrap justify-center md:flex-row gap-10 px-5'>
         <ProjectCard
           src='/SoSummit.png'
-          link='https://sosummit.netlify.app/'
+          link='https://www.linkedin.com/company/sosummit/'
           company='SoSummit'
           title='Full Stack Developer'
           description='SoSummit is a Web and Mobile Application to facilitate coordination and improve the efficiency of emergency and rescue services. Marketed to Ski Resorts.'
